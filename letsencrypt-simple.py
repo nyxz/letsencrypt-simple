@@ -17,8 +17,8 @@ DEFAULT_API_URL = 'https://acme-v01.api.letsencrypt.org/acme/'
 STAGING_API_URL = 'https://acme-staging.api.letsencrypt.org/acme/'
 AGREEMENT_URL = 'https://letsencrypt.org/documents/LE-SA-v1.0.1-July-27-2015.pdf'
 ACCOUNT_KEY_FILE = 'keys/account.key'
-INTERMEDIATE_CERT_URL = 'https://letsencrypt.org/certs/lets-encrypt-x1-cross-signed.pem'
-INTERMEDIATE_CERT_FILE = 'keys/lets-encrypt-x1-cross-signed.pem'
+INTERMEDIATE_CERT_URL = 'https://letsencrypt.org/certs/lets-encrypt-x3-cross-signed.pem'
+INTERMEDIATE_CERT_FILE = 'keys/lets-encrypt-x3-cross-signed.pem'
 
 class ApiError(Exception):
     def __init__(self, info):
